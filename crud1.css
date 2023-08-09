@@ -1,0 +1,58 @@
+.container {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"], input[type="date"], input[type="time"] {
+    width: 100%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+}
+button{
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0069d9;
+}
+h1 {
+    color: 	#630330;
+    text-align: center;
+    margin-top: 0;
+    font-size: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 50px;
+}
+
+.clock {
+    padding: 5px;
+    color: #770737;
+    font-family: Orbitron;
+    font-size: 100px;
+    font-weight: bold;
+    border: 10px solid #915F6D;
+    border-radius: 30px;
+}
+
+.table {
+    padding-top: 20px;
+}
+
+body {
+    background-color: #E6E6FA;
+}
